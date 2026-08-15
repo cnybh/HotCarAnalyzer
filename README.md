@@ -1,7 +1,7 @@
 
-        HOT CAR ANALYZER by bohangyang PATSMET
-                    空调历史数据分析工具
-                    版本：V1.1（2026.08）
+HOT CAR ANALYZER by bohangyang PATSMET
+空调历史数据分析工具
+版本：V1.1（2026.08）
 
 
 一、文件组成
