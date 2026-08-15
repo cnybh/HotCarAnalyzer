@@ -1,0 +1,35 @@
+{
+  "_note": "HOT CAR ANALYZER config file - edit and save, then run the program again.",
+  "columns": {
+    "_note": "Column mapping: time_column=time column, fresh_air_column=fresh air temp column, return_air_column=return air temp column. Values can be a column index (0-based, 0=first column) or a column name (e.g. \"Tem\").",
+    "time_column": 0,
+    "fresh_air_column": 27,
+    "return_air_column": 28
+  },
+  "csv": {
+    "_note": "CSV reading: skip_rows=header rows to skip; encoding=file encoding (auto / utf-8 / gbk).",
+    "skip_rows": 1,
+    "encoding": "auto"
+  },
+  "alarms": {
+    "_note": "The two threshold lines: target_temp=target temperature line (green, was 23), trigger_temp=trigger temperature line (red, was 28.5).",
+    "target_temp": 23,
+    "trigger_temp": 28.5
+  },
+  "sensor_ranges": {
+    "_note": "Reasonable temperature ranges used to filter out sensor errors.",
+    "fresh_air_min": 10,
+    "fresh_air_max": 50,
+    "return_air_min": 10,
+    "return_air_max": 40
+  },
+  "analysis": {
+    "_note": "downsample_every=sample every N rows; max_interval_minutes=max point interval in minutes (currently 20; set back to 30 for every half hour).",
+    "downsample_every": 10,
+    "max_interval_minutes": 20
+  },
+  "language": "en",
+  "_lang_note": "language: en=English, zh=Chinese.",
+  "output_dir": "",
+  "_output_note": "output_dir: output directory; leave \"\" to save next to the data file."
+}
